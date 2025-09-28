@@ -1,0 +1,29 @@
+body {
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 470px;
+    margin: 0 auto;
+    color: #2b2839;
+    background: #ddebf8;
+    border-bottom: 5px solid #d8cefe;
+}
+
+.text{
+    text-align: center;
+}
+
+/*
+Challenge:
+Create a utility class for the dotted blue border.
+Give the class to both flexbox children in the HTML.
+*/
